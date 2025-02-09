@@ -36,6 +36,7 @@ html{
     text-align: center;
     text-transform: capitalize;
     letter-spacing: .5rem;
+    transition: transform .3s;
 }
 
 .section-1-icons i {
