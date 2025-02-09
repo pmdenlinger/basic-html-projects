@@ -15,6 +15,18 @@
 html{
     font-size: 62.5%;
 }
+
+.section-heading{
+    font-size: 12rem;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: .5rem;
+    transition: transform .3s;
+    text-shadow: 0.3rem 0.3rem 0.3rem #000;
+}
+
 /* End of common styles */
 
 /* Section 1 */
@@ -29,15 +41,6 @@ html{
     text-shadow: .3rem .3rem .3rem #000;
 }
 
-.section-heading{
-    font-size: 12rem;
-    font-weight: 900;
-    color: #fff;
-    text-align: center;
-    text-transform: capitalize;
-    letter-spacing: .5rem;
-    transition: transform .3s;
-}
 
 .section-1-icons i {
     font-size: 35rem;
@@ -45,6 +48,7 @@ html{
     position: absolute;
     transform: translate(-50%, -50%) scale(0);
     text-shadow: .2rem .2rem .2rem #000;
+    transition: transform .3s .3s;
 }
 
 .section-1-icons i.change{
